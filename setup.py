@@ -27,7 +27,7 @@ You can optionally support the Public Suffix List's private domains as well.
 
 from setuptools import setup
 
-INSTALL_REQUIRES = ["idna", "requests>=2.1.0", "requests-file>=1.4", "filelock>=3.0.8"]
+INSTALL_REQUIRES = ["idna", "requests>=2.1.0", "requests-file<2.0.0", "filelock>=3.0.8"]
 
 setup(
     name="tldextract",
